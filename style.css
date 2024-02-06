@@ -27,7 +27,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 25px 150px;
+  padding: 35px 150px;
   justify-content: space-between;
   font-size: clamp(10px, 5vw, 1.1rem);
 }
@@ -88,7 +88,7 @@ section {
 #landing {
   display: flex;
   flex-wrap: wrap;
-  height: 85vh;
+  height: 80vh;
   position: relative;
   flex: 0 0 auto;
   align-items: center;
@@ -289,7 +289,7 @@ form {
   align-items: center;
   flex-wrap: wrap;
   align-content: center;
-  gap: 80px;
+  gap: 65px;
 }
 
 .container-img {
@@ -307,7 +307,7 @@ form {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 50px 250px;
+  padding: 50px 240px;
   background-color: #7968c31c;
   border-radius: 10px;
 }
@@ -451,9 +451,10 @@ footer {
   flex-direction: column;
   height: 15vh;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 25px;
+  padding: 10px;
 }
 
 .copyrights span {
