@@ -47,6 +47,11 @@ nav p span {
   border-radius: 25px;
 }
 
+nav .logo-link {
+  text-decoration: none;
+  outline: none;
+}
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
