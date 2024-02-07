@@ -12,6 +12,8 @@
 }
 
 body {
+  display: grid;
+  flex-direction: column;
   height: 100vh;
 }
 
@@ -49,7 +51,6 @@ nav p span {
 
 nav .logo-link {
   text-decoration: none;
-  outline: none;
 }
 
 nav ul {
@@ -57,6 +58,7 @@ nav ul {
   flex-wrap: wrap;
   align-items: center;
   gap: 40px;
+  outline: none;
 }
 nav ul li,
 nav ul li a {
@@ -65,6 +67,7 @@ nav ul li a {
   color: #757187;
   font-weight: 550;
   text-decoration: none;
+  outline: none;
 }
 
 nav ul li:hover,
@@ -347,6 +350,7 @@ footer {
 
 .all {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 70px;
 }
