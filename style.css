@@ -71,6 +71,9 @@ nav ul li:hover,
 nav ul li a {
   color: var(--button-color);
 }
+nav ul li:active {
+  color: var(--pink);
+}
 
 nav ul .login {
   background-color: #7571871c;
@@ -257,12 +260,16 @@ form {
 .stats-contents button {
   background-color: var(--button-color);
   color: white;
-  font-size: clamp(10px, 4vw, 1rem);
+  font-size: clamp(10px, 3vw, 0.9rem);
   font-weight: 500;
-  padding: 12px 25px;
+  padding: 12px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+#discover-button {
+  padding-inline: 15px;
 }
 
 .stats-contents button:hover {
