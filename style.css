@@ -23,7 +23,7 @@ p {
 }
 
 header {
-  width: 100%;
+  /* width: 100%; */
 }
 nav {
   display: flex;
@@ -43,7 +43,7 @@ nav p {
   font-weight: 800;
 }
 nav p span {
-  width: 5px;
+  max-width: 5px;
   height: 0;
   border: 3px solid var(--pink);
   border-radius: 25px;
@@ -105,14 +105,14 @@ section {
 #landing img {
   display: flex;
   flex-wrap: wrap;
-  width: 45%;
+  max-width: 45%;
 }
 .landing-content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   position: relative;
-  width: 430px;
+  max-width: 430px;
   gap: 30px;
   left: 50px;
 }
